@@ -1,427 +1,708 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-      /* HEADER */
+/* HEADER */
 
-.bg{
-    background-color: rgb(235, 71, 11);
-    height: 750px;
-    position: relative;
+.bg {
+  background-color: rgb(235, 71, 11);
+  height: 750px;
+  position: relative;
 }
 
- .back_birayni{
-    width: 500px;
-    height: 300px;
-    position: absolute;
-    top: 200px;
-    left: 1080px;
- }
-
- .logo img{
-    border: 1px solid whitesmoke;
-    border-radius: 10px;
-    width: 40px;
-    height:30px;
-    position: absolute;
-    top: 20px;
-    left: 120px;
- }
- .nav{
-    position: absolute;
-    top: 12px;
-    left: 980px;
- }
-
- .nav-item a{
-    color: whitesmoke;
- }
-
- .brand {
-    color: white;
-    position: absolute;
-    top: 16px;
-    left: 178px;
-
- }
- .app{
-    border: 1px solid whitesmoke;
-    border-radius: 10px;
- }
- .pro{
-    margin: 0px 0px 0px 10px;
-    color: whitesmoke;
- }
-
-
-
- .btn-back svg{
-    margin-right: 30px;
-    color: orange
- }
-
- .heading1{
-   position: absolute;
-   color: white;
-   top: 130px;
-   left: 300px;
-   font-size: 55px;
-
- }
- 
- .heading2{
-   position: absolute;
-   color: white;
-   top: 200px;
-   left: 380px;
-   font-size: 55px;
-
- }
-
- .location_logo svg{
-   position: absolute;
-   top :280px;
-   left :320px;
-   color: orange;
-   width: 20px;
-   height: 50px;
- }
-
- .location_select {
-   width: 350px;
-   margin: 280px 0px 0px 300px;
+.back_birayni {
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  top: 200px;
+  left: 1080px;
 }
 
-
-.search{
-   width: 400px;
-   height: 0px;
-   margin: 280px 0px 0px 20px;
+.logo img {
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  top: 20px;
+  left: 120px;
 }
 
-.search  input{
-   padding: 10px 0px 10px  20px;
-}
-.search_res{
-   position: absolute;
-   top :290px;
-   left :1040px;
-}
-.dcol{
-   background-color: whitesmoke;
-   margin: 20px;
-   height: 200px;
-   border-radius: 20px;
+.nav {
+  position: absolute;
+  top: 12px;
+  left: 980px;
 }
 
-.dinein{
-   width: 150px;
-   position: absolute;
-   left: 375px;
-   bottom: 1px;
+.nav-item a {
+  color: whitesmoke;
 }
 
-.parcel{
-   width: 140px;
-   position: absolute;
-   left: 665px;
+.brand {
+  color: white;
+  position: absolute;
+  top: 16px;
+  left: 178px;
 }
 
-.back_card{
-   width: 800px;
-   margin-left: 300px;
-   position: relative;
+.app {
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
 }
 
+.pro {
+  margin: 0px 0px 0px 10px;
+  color: whitesmoke;
+}
+
+.btn-back svg {
+  margin-right: 30px;
+  color: orange;
+}
+
+.heading1 {
+  position: absolute;
+  color: white;
+  top: 130px;
+  left: 300px;
+  font-size: 55px;
+}
+
+.heading2 {
+  position: absolute;
+  color: white;
+  top: 200px;
+  left: 380px;
+  font-size: 55px;
+}
+
+.location_logo svg {
+  position: absolute;
+  top: 280px;
+  left: 320px;
+  color: orange;
+  width: 20px;
+  height: 50px;
+}
+
+.location_select {
+  width: 350px;
+  margin: 280px 0px 0px 300px;
+}
+
+.search {
+  width: 400px;
+  height: 0px;
+  margin: 280px 0px 0px 20px;
+}
+
+.search input {
+  padding: 10px 0px 10px 20px;
+}
+
+.search_res {
+  position: absolute;
+  top: 290px;
+  left: 1040px;
+}
+
+.dcol {
+  background-color: whitesmoke;
+  margin: 20px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.dinein {
+  width: 150px;
+  position: absolute;
+  left: 375px;
+  bottom: 1px;
+}
+
+.parcel {
+  width: 140px;
+  position: absolute;
+  left: 665px;
+}
+
+.back_card {
+  width: 800px;
+  margin-left: 300px;
+  position: relative;
+}
 
 /* HEADER CARDS */
-.in_cards1 h3{
-   margin: 10px 20px 0px 0px;
-   font-size:25px;
-   font-weight: bolder;
+.in_cards1 h3 {
+  margin: 10px 20px 0px 0px;
+  font-size: 25px;
+  font-weight: bolder;
 }
 
-.in_cards2 h3{
-   margin: 10px 100px 0px 0px;
-   font-size:25px;
-   font-weight: bolder;
+.in_cards2 h3 {
+  margin: 10px 100px 0px 0px;
+  font-size: 25px;
+  font-weight: bolder;
 }
 
-
-.in_cards3 h3{
-   margin: 10px 130px 0px 0px ;
-   font-size:25px;
-   font-weight: bolder;
+.in_cards3 h3 {
+  margin: 10px 130px 0px 0px;
+  font-size: 25px;
+  font-weight: bolder;
 }
 
-.in_cards1 h6{
-   color: gray;
-   margin-right: 60px;
+.in_cards1 h6 {
+  color: gray;
+  margin-right: 60px;
 }
 
-.in_cards2 h6{
-   color: gray;
-   margin-right: 40px;
+.in_cards2 h6 {
+  color: gray;
+  margin-right: 40px;
 }
 
-.in_cards3 h6{
-   color: gray;
-   margin-right: 70px;
+.in_cards3 h6 {
+  color: gray;
+  margin-right: 70px;
 }
 
-.in_cards1 p{
-   color: rgb(255, 64, 0);;
-   background-color: antiquewhite;
-   border-radius: 20px;
-   width: 115px;
-   font-weight: bolder;
+.in_cards1 p {
+  color: rgb(255, 64, 0);
+  background-color: antiquewhite;
+  border-radius: 20px;
+  width: 115px;
+  font-weight: bolder;
 }
 
-.in_cards2 p{
-   color: rgb(255, 64, 0);
-   background-color: antiquewhite;
-   border-radius: 20px;
-   width: 115px;
-   font-weight: bolder;
-}
-.arrow_btn svg{
-   width: 40px;
-   height: 40px;
-   margin: 18px;
-   color: orange
-}
-.del{
-   margin-top: 40px;
+.in_cards2 p {
+  color: rgb(255, 64, 0);
+  background-color: antiquewhite;
+  border-radius: 20px;
+  width: 115px;
+  font-weight: bolder;
 }
 
-.food{
-   width: 200px;
-   position: absolute;
-   left: 90px;
-   bottom: 1px;
+.arrow_btn svg {
+  width: 40px;
+  height: 40px;
+  margin: 18px;
+  color: orange;
 }
 
- /* GRID  */
-.Grid_head{
-   margin: 50px 0px 20px 95px;
+.del {
+  margin-top: 40px;
+}
+
+.food {
+  width: 200px;
+  position: absolute;
+  left: 90px;
+  bottom: 1px;
+}
+
+/* GRID  */
+.Grid_head {
+  margin: 50px 0px 20px 95px;
 }
 
 .dishes .col:hover h5 {
-   color: #00d0ff;
- }
- 
+  color: #00d0ff;
+}
+
 /* RESTRUANTS CARDS */
 
-.card_head{
-   margin: 50px 0px 20px 95px;
-}
-.ABkm{
-   margin-left: 90px;
-}
-.FM1{
-   margin-left: 79px;
+.card_head {
+  margin: 50px 0px 20px 95px;
 }
 
-.SC{
-   margin-left: 80px;
+.ABkm {
+  margin-left: 90px;
 }
 
-.dineout_card{
-   margin: 20px 20px 100px 75px;
+.FM1 {
+  margin-left: 79px;
 }
 
-.card{
-   margin-left: 20px;
-   transition: transform 2s;
-}
-.card a{
-   display: none;
+.SC {
+  margin-left: 80px;
 }
 
-.card:hover{
-   transform: scale(1.1,1.1);
+.dineout_card {
+  margin: 20px 20px 100px 75px;
 }
 
-
-.card:hover a{
-   display: block;
+.card {
+  margin-left: 20px;
+  transition: transform 2s;
 }
 
+.card a {
+  display: none;
+}
+
+.card:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.card:hover a {
+  display: block;
+}
 
 /* SCAN PART */
 
-.scan{
-   background-color: black;
-   height: 290px;
-   margin-bottom: 120px;
-   position: relative;
+.scan {
+  background-color: black;
+  height: 290px;
+  margin-bottom: 120px;
+  position: relative;
+}
+
+.ft_logo img {
+  background-color: orangered;
+  border-radius: 10px;
+  width: 35px;
+  height: 30px;
+  position: absolute;
+  top: 69px;
+  left: 280px;
+}
+
+.ft_brand {
+  color: orangered;
+  position: absolute;
+  top: 65px;
+  left: 340px;
+}
+
+.App {
+  color: white;
+  position: absolute;
+  top: 120px;
+  left: 280px;
+}
+
+.ft_para {
+  color: grey;
+  position: absolute;
+  top: 170px;
+  left: 284px;
+}
+
+.mob_scan {
+  position: absolute;
+  height: 200px;
+  left: 1050px;
+  top: 20px;
+  width: 170px;
+}
+
+.download {
+  position: absolute;
+  color: white;
+  left: 1070px;
+  top: 250px;
+  color: rgb(252, 141, 100);
+  display: none;
+}
+
+.scan_end:hover .download {
+  display: block;
+  transform: scale(2, 2);
+}
+
+.ft_bur {
+  position: absolute;
+  left: 990px;
+  top: 150px;
+  transform: rotate(320deg);
+}
+
+.ft_dish {
+  position: absolute;
+  left: 1210px;
+  top: 20px;
+  transform: rotate(10deg);
+}
+
+.ft_dish2 {
+  position: absolute;
+  left: 960px;
+  top: 40px;
+  transform: rotate(30deg);
+}
+
+.onilne_city {
+  margin: 20px 0px 0px 180px;
+  display: flex;
+}
+
+.onilne_city .cities p {
+  border: 1px solid black;
+  padding: 10px 0px 10px 20px;
+  margin: 0px 20px 0px 20px;
+  width: 250px;
+  border-radius: 5px;
+}
+
+.city_head {
+  margin: 0px 0px 10px 200px;
+}
+
+/* footer */
+
+footer {
+  margin-top: 100px;
+  display: flex;
+  background-color: rgb(207, 206, 206);
+  height: 500px;
+}
+
+.foot_main {
+  padding: 50px 0px 0px 200px;
+}
+
+.foot_logo_img img {
+  background-color: orangered;
+  border-radius: 10px;
+  width: 35px;
+  height: 30px;
+}
+
+.foot_brand {
+  color: orangered;
+}
+
+.foot_main li {
+  list-style: none;
+  padding-bottom: 25px;
+}
+
+.foot_main h4 {
+  margin-left: 30px;
+}
+
+.foot_main a {
+  text-decoration: none;
+  color: grey;
+}
+
+.foot_main a:hover {
+  color: brown;
+}
+
+.foot_select {
+  width: 100px;
+  color: grey;
+  background-color: rgb(207, 206, 206);
+  border-radius: 10px;
+}
+
+.foot_company {
+  margin-left: 150px;
+}
+
+.contact {
+  margin-left: 30px;
+}
+
+.Legal {
+  margin-top: 20px;
+}
+
+.Available {
+  margin-left: 30px;
+}
+
+.Life {
+  margin-left: 30px;
+}
+
+/* DineOut */
+
+.back {
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgb(229, 32, 6, 1), rgba(252, 128, 25, 0.1)),
+    url("./family.jpg");
+  opacity: 0.5;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.nav_br {
+  padding: 15px 0px 15px 0px;
+}
+
+.d_logo {
+  border-radius: 30px;
+  width: 100px;
+  height: 60px;
+  margin-left: 100px;
+}
+
+.nav_br a {
+  color: black;
+}
+
+.d_links {
+  margin-left: 500px;
+  padding-top: 10px;
+}
+
+.d_links a {
+  margin-left: 50px;
+}
+
+.nav_br :hover {
+  color: rgb(125, 32, 35);
+}
+
+.d_back_logo {
+  width: 90px;
+  height: 80px;
+  position: absolute;
+  top: 110px;
+  left: 80px;
+  border: 2px solid whitesmoke;
+  border-radius: 20px;
+}
+
+.h_s {
+  color: white;
+  position: absolute;
+  top: 115px;
+  left: 184px;
+}
+
+.h_d {
+  color: white;
+  position: absolute;
+  top: 146px;
+  left: 184px;
+}
+
+.h_dine {
+  color: white;
+  position: absolute;
+  top: 236px;
+  left: 84px;
+  font-size: 45px;
+}
+
+.h_get {
+  color: white;
+  position: absolute;
+  top: 286px;
+  left: 84px;
+  font-size: 45px;
+}
+
+.h_no {
+  color: white;
+  position: absolute;
+  top: 330px;
+  left: 84px;
+  font-size: 230px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.h_per {
+  color: white;
+  position: absolute;
+  top: 350px;
+  left: 354px;
+  font-size: 100px;
+}
+
+.h_off {
+  color: white;
+  position: absolute;
+  top: 450px;
+  left: 354px;
+  font-size: 80px;
+}
+
+.h_bill {
+  color: white;
+  position: absolute;
+  top: 556px;
+  left: 54px;
+  font-size: 45px;
+}
+
+.b_para {
+  color: white;
+  position: absolute;
+  top: 636px;
+  left: 54px;
+  width: 490px;
+}
+
+.b_mob {
+  position: absolute;
+  left: 1150px;
+  top: 100px;
+  z-index: 2;
+}
+
+.github {
+  position: absolute;
+  left: 750px;
+  top: 250px;
+  width: 300px;
+  z-index: 2;
+  border-radius: 20px;
+}
+
+.h_scan {
+  position: absolute;
+  color: white;
+  left: 788px;
+  top: 550px;
+}
+
+.h_sapp {
+  position: absolute;
+  color: white;
+  left: 818px;
+  top: 580px;
+}
+
+/* Genie Page */
+
+.main_geine {
+  align-items: center;
+  width: 600px;
+  height: 1410px;
+  background-color: rgba(199, 189, 189,0.5);
+  margin: 20px 0px 0px 500px;
+  border-radius: 20px 0px 20px 20px;
 }
 
 
-.ft_logo img{
+.first_part{
+   background-color: rgba(194, 92, 246, 0.2);
+   height: 300px;
+   margin-right: 20px;
+   border-radius: 20px 0px 20px 20px;
+}
+
+.arr{
+   margin: 20px 13px 10px 13px;
+   background-color: whitesmoke;
+   border-radius: 50%;
+   color: black;
+
+}
+
+.prof{
+   border: 1px solid grey;
+   background-color: rgb(46, 41, 41);
+   border-radius: 50% ;
+   padding: 2px;
+   margin:10px 0px 0px 380px;
+}
+
+.gein_del{
+   margin-left:300px ;
+   color: rgb(30, 30, 231);
+}
+
+.pickup{
+   background-color: whitesmoke;
+   height: 150px;
+   margin: 20px;
+   border-radius: 20px;
+   padding: 10px;
+}
+
+.pickup button{
+   padding: 10px;
    background-color: orangered;
+   border: none;
    border-radius: 10px;
-   width: 35px;
-   height:30px;
-   position: absolute;
-   top: 69px;
-   left: 280px;
-}
- .ft_brand {
-    color: orangered;
-    position: absolute;
-    top: 65px;
-    left: 340px;
-
- }
-
- .App{
    color: white;
-   position: absolute;
-   top: 120px;
-   left: 280px;
- }
-
- .ft_para{
-   color: grey;
-   position: absolute;
-   top: 170px;
-   left: 284px;
-
- }
-
- .mob_scan{
-   position: absolute;
-   height: 200px;
-   left: 1050px;
-   top: 20px;
-   width: 170px;
- }
- 
- .download{
-   position: absolute;
-   color: white;
-   left: 1070px;
-   top: 250px;
-   color: rgb(252, 141, 100);
-   display: none;
- }
-
- .scan_end:hover .download {
-      display: block;
-      transform: scale(2,2);
- }
-
-
- .ft_bur{
-   position: absolute;
-   left: 990px;
-   top: 150px;
-   transform: rotate(320deg);
-   
- }
-
- .ft_dish{
-   position: absolute;
-   left: 1210px;
-   top: 20px;
-   transform: rotate(10deg);
-   
- }
-
- .ft_dish2{
-   position: absolute;
-   left: 960px;
-   top: 40px;
-   transform: rotate(30deg);
-   
- }
-
-.onilne_city{
-   margin: 20px 0px 0px 180px;
-   display: flex;
 }
 
-.onilne_city .cities p{
-   border: 1px solid black;
-   padding: 10px 0px 10px 20px;
-   margin: 0px  20px 0px 20px;
-   width: 250px;
-   border-radius: 5px;
- }
+.pickup button svg{
+   margin-left: 290px;
+   margin-right: 10px;
+}
 
- .city_head{
-   margin: 0px 0px 10px 200px;
- }
+.caro{
+   margin: 20px;
+   border-radius: 20px;
+}
 
-
-       /* footer */
-
-
-footer{
-   margin-top: 100px;
-   display: flex;
-   background-color: rgb(207, 206, 206);
+.geine_foot{
    height: 500px;
+   margin-right: 20px;
+   background-color: black;
+   border-radius: 0px 0px 0px 20px;
 }
 
-.foot_main{
-   padding: 50px 0px 0px 200px;
+.geine_company{
+   padding-top: 10px;
 }
-.foot_logo_img img{
-   background-color: orangered;
-   border-radius: 10px;
-   width: 35px;
-   height:30px;
+
+.geine_company h5{
+   margin-left: 20px;
+   color: grey;
 }
- .foot_brand {
-    color: orangered;
 
- }
-
- .foot_main li{
-   list-style: none;
-   padding-bottom: 25px;
- }
-
- .foot_main h4{
-   margin-left: 30px;
- }
- .foot_main a{
+.geine_company a{
    text-decoration: none;
-   color: grey;
+   color: white;
    
- }
+}
 
- .foot_main a:hover{
-   color: brown;
- }
+.geine_company li{
+   list-style-type: none;
+   padding-top: 10px;
+}
 
- .foot_select{
-   width: 100px;
+.geine_Legal{
+   padding-top: 10px;
+}
+
+.geine_Legal h5{
+   margin-left: 30px;
    color: grey;
-   background-color:rgb(207, 206, 206) ;
-   border-radius: 10px;
 }
 
-.foot_company{
-   margin-left: 150px;
+.geine_Legal a{
+   text-decoration: none;
+   color: white;
+   
+}
+
+.geine_Legal li{
+   list-style-type: none;
+   padding-top: 10px;
 }
 
 
-.contact{
+
+.geine_Contact{
+   padding-top: 10px;
+   margin-left: 50px;
+}
+
+.geine_Contact h5{
    margin-left: 30px;
+   color: grey;
 }
 
-.Legal{
-   margin-top: 20px;
+.geine_Contact a{
+   text-decoration: none;
+   color: white;
+   
 }
 
-.Available{
-   margin-left: 30px;
-}
-
-.Life{
-   margin-left: 30px;
+.geine_Contact li{
+   list-style-type: none;
+   padding-top: 10px;
 }
